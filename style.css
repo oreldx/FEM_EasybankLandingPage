@@ -289,6 +289,7 @@ p[data-width="wide"] {
 
 .articles-list a {
   text-decoration: none;
+  
 }
 
 .articles-list a:hover {
@@ -336,7 +337,6 @@ p[data-width="wide"] {
 
 .primary-footer__copyright {
   grid-area: copyright;
-  color: var(--clr-neutral-600);
 }
 
 .social-list {
@@ -357,7 +357,6 @@ p[data-width="wide"] {
 
 .primary-footer-wrapper a {
   text-decoration: none;
-  color: var(--clr-neutral-100);
 }
 
 .primary-footer-wrapper a:hover,

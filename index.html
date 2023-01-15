@@ -13,9 +13,10 @@
       <div class="container">
         <div class="nav-wrapper">
           <a href="#">
-            <svg class="logo" width="139" height="20">
-              <use xlink:href="images/logo.svg#logo"></use>
-            </svg>
+            <img src="images/logo.svg" alt="">
+            <!-- <svg class="logo" width="139" height="20"> 
+                  <use xlink:href="images/logo.svg#logo"></use>
+            </svg> -->
           </a>
           <nav class="primary-navigation |  display-sm-none">
             <ul class="nav-list" role="list" aria-label="Primary">
@@ -32,7 +33,7 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero | bg-neutral-200">
         <div class="container">
           <div class="hero-columns">
             <div class="hero-image">
@@ -49,7 +50,7 @@
         </div>
       </section>
 
-      <section class="sales-points | padding-block-900 bg-neutral-200 vertical-center-mobile">
+      <section class="sales-points | bg-neutral-400 padding-block-900 vertical-center-mobile">
         <div class="container | align-center">
           <div>
             <div class="flow">
@@ -95,13 +96,13 @@
         </div>
       </section>
 
-      <section class="articles | padding-block-900 ">
+      <section class="articles | bg-neutral-200 padding-block-900 ">
         <div class="container">
           <h2 class="secondary-heading | fs-secondary-heading vertical-center-mobile">Latest Articles</h2>
-          <ul class="articles-list">
+          <ul class="articles-list ">
             <li>
-              <div class="articles__card">
-                <a class="flow" style="--flow-spacer: 0.5em" href="#">
+              <div class="articles__card | bg-neutral-100">
+                <a class="text-primary-400 flow" style="--flow-spacer: 0.5em" href="#">
                   <img class="articles__image" src="images/image-currency.jpg" alt="">
                   <div class="articles__content">
                     <p class="articles__author | text-neutral-600 fs-300">By Claire Robinson</p>
@@ -113,36 +114,42 @@
               </div>
             </li>
             <li>
-              <a class="flow" style="--flow-spacer: 0.5em" href="#">
-                <img class="articles__image" src="images/image-restaurant.jpg" alt="">
-                <div class="articles__content">
-                  <p class="articles__author | text-neutral-600 fs-300">By Wilson Hutton</p>
-                  <h3 class="articles__title | fs-500">Treat yourself without worrying about money</h3>
-                  <p class="articles__text | text-neutral-600 fs-400">Our simple budgeting feature allows you to separate out your spending and set                     realistic limits each month. That means you …</p>
-                </div>
+              <div class="articles__card | bg-neutral-100">
+                <a class="text-primary-400 flow" style="--flow-spacer: 0.5em" href="#">
+                  <img class="articles__image" src="images/image-restaurant.jpg" alt="">
+                  <div class="articles__content">
+                    <p class="articles__author | text-neutral-600 fs-300">By Wilson Hutton</p>
+                    <h3 class="articles__title | fs-500">Treat yourself without worrying about money</h3>
+                    <p class="articles__text | text-neutral-600 fs-400">Our simple budgeting feature allows you to separate out your spending and set                     realistic limits each month. That means you …</p>
+                  </div>
+              </div>
               </a>
             </li>
             <li>
-              <a class="flow" style="--flow-spacer: 0.5em" href="">
-                <img class="articles__image" src="images/image-plane.jpg" alt="">
-                <div class="articles__content">
-                  <p class="articles__author | text-neutral-600 fs-300">By Wilson Hutton</p>
-                  <h3 class="articles__title | fs-500">Take your Easybank card wherever you go</h3>
-                  <p class="articles__text | text-neutral-600 fs-400">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
-                    while you’re abroad. We’ll even show you …</p>
-                </div>
+              <div class="articles__card | bg-neutral-100">
+                <a class="text-primary-400 flow" style="--flow-spacer: 0.5em" href="">
+                  <img class="articles__image" src="images/image-plane.jpg" alt="">
+                  <div class="articles__content">
+                    <p class="articles__author | text-neutral-600 fs-300">By Wilson Hutton</p>
+                    <h3 class="articles__title | fs-500">Take your Easybank card wherever you go</h3>
+                    <p class="articles__text | text-neutral-600 fs-400">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+                      while you’re abroad. We’ll even show you …</p>
+                  </div>
                 </a>
+              </div>
             </li>
             <li>
-              <a class="flow" style="--flow-spacer: 0.5em" href="">
-                <img class="articles__image" src="images/image-confetti.jpg" alt="">
-                <div class="articles__content">
-                  <p class="articles__author | text-neutral-600 fs-300">By Claire Robinson</p>
-                  <h3 class="articles__title | fs-500">Our invite-only Beta accounts are now live!</h3>
-                  <p class="articles__text | text-neutral-600 fs-400">After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
-                    It’s easy to request an invite through the site ...</p>
-                </div>
-              </a>
+              <div class="articles__card | bg-neutral-100">
+                <a class="text-primary-400 flow" style="--flow-spacer: 0.5em" href="">
+                  <img class="articles__image" src="images/image-confetti.jpg" alt="">
+                  <div class="articles__content">
+                    <p class="articles__author | text-neutral-600 fs-300">By Claire Robinson</p>
+                    <h3 class="articles__title | fs-500">Our invite-only Beta accounts are now live!</h3>
+                    <p class="articles__text | text-neutral-600 fs-400">After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+                      It’s easy to request an invite through the site ...</p>
+                  </div>
+                </a>
+              </div>
             </li>
           </ul>
         </div>
@@ -196,16 +203,16 @@
           </ul>
           <nav class="primary-footer__nav">
             <ul class="footer-nav | flow" style="--flow-spacer: 0.75em" role="list"  aria-label="Footer">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a class="text-neutral-100" href="#">About Us</a></li>
+              <li><a class="text-neutral-100" href="#">Contact</a></li>
+              <li><a class="text-neutral-100" href="#">Blog</a></li>
+              <li><a class="text-neutral-100" href="#">Careers</a></li>
+              <li><a class="text-neutral-100" href="#">Support</a></li>
+              <li><a class="text-neutral-100" href="#">Privacy Policy</a></li>
             </ul>
           </nav>
           <button class="primary-footer__button button">Request Invite</button>
-          <p class="primary-footer__copyright">© Easybank. All Rights Reserved</p>
+          <p class="primary-footer__copyright | text-neutral-600">© Easybank. All Rights Reserved</p>
         </div>
       </div>
     </footer>
