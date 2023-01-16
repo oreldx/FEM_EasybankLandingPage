@@ -1,2 +1,6 @@
 node_modules/
+design/
 package-lock.json
+raw_index.html
+README-template.md
+style-guide.md
