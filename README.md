@@ -18,4 +18,6 @@ The JavaScript code was used to add some basic interactivity to the page, such a
 
 I hope you find this project helpful and informative! If you have any suggestions or feedback, please feel free to open an issue or submit a pull request.
 
+### [Live Site](https://oreldx.github.io/FEM_EasybankLandingPage/)
+
 Enjoy!
