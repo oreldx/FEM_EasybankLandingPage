@@ -447,6 +447,7 @@ p[data-width="wide"] {
 }
 
 .articles__content {
+  display: block;
   padding: var(--size-400);
 }
 
